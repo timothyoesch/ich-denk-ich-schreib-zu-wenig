@@ -73,10 +73,6 @@ let groupedPosts = posts.reduce((acc, post) => {
         border: 1px solid theme("colors.charcoal");
         margin-left: -1px;
         padding: 1rem;
-
-        &:nth-child(even) {
-            margin-top: -1px;
-        }
     }
 }
 </style>
