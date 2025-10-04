@@ -1,0 +1,16 @@
+---
+date : 2024-10-04
+title: "Menschenrechte als Handelsware"
+lead: "Bundesrat und Parlament haben in den vergangenen Monaten diverse Angriffe auf das Kriegsmaterialgesetz gestartet."
+slug: menschenrechte-als-handelsware
+tags: ["Kriegsmaterial"]
+---
+
+Die Konsequenzen dieser Änderungen sind gravierend und weitreichend: Wiederausfuhr von Kriegsmaterial und direkte Waffenexporte in menschenrechtsverletzende Staaten sind zu befürchten. Was in diesen Diskussionen immer vergessen geht: Mit diesen Änderungen wird die Schweiz Geschäfte mit Grundrechten der Bevölkerung in den Empfängerstaaten machen.
+«Eine bedeutende Minderheit der Kommission empfiehlt, auf den Export und die Wiederausfuhr von Kriegsmaterial in Ländern, welche Menschenrechte schwerwiegend verletzen, zu verzichten.» So liest sich eine der Empfehlungen aus dem «Bericht der Studienkommission Sicherheitspolitik» (Seite 59). Die Perversität der Konsequenzen dieser Empfehlung können gar nicht genug betont werden: Eine Mehrheit der Kommission ist der Ansicht oder nimmt zumindest in Kauf, dass die Schweiz Kriegsmaterial in Länder ausführen soll, selbst wenn diese Staaten die existentiellen Rechte ihrer Bürger\*innen mit Füssen treten. Dasselbe soll – wenn es nach der Vorstellung der “Expert\*innen” geht – auch für Staaten gelten, die in Kriege und Konflikte verwickelt sind. «Die Kommission stellt sich diametral gegen geltendes Recht», meinte Marionna Schlatter, selbst Mitglied der Kommission, als sie bei einem Treffen der Regionalgruppe Zürich über den Bericht sprach. «Das muss man erst mal sacken lassen.»
+
+Mit zwei Frontalangriffen versuchen die Sicherheitspolitischen Kommissionen des Parlaments und der Bundesrat die Regelwerke anzupassen, unter welchen Umständen Waffen, Munition, Gefährt und sonstiges Material aus der Schweiz ins Ausland verkauft werden dürfen. Der Bundesrat will sich selbst die Kompetenz geben, Ausnahmen für die Bewilligung von Exporten erteilen zu können. Keine 5 Jahre nach der Korrektur-Initiative versucht er also, die Volksabstimmung über das Anliegen zu umgehen. Mit der parlamentarischen Initiative der SIK des Nationalrats, versucht der Rat ausserdem, Wiederausfuhren zu erlauben. Mit anderen Worten sollen Länder Waffen, welche sich in der Schweiz gekauft haben, weiterverkaufen können: Nach eigenem Gusto. Den Chef der Rheinmetall Air Defence freut's: In einem SRF Interview gibt Oliver Dürr unmissverständlich zu verstehen, dass es sein Ziel sei, seine Produkte auch in Saudi Arabien abzusetzen. Dass seine Waffen in diesem Fall verwendet werden könnten, um politische Gegener*innen der saudischen Regierung auszuschalten, scheint ihn völlig kalt zu lassen.
+
+Treten wir einen Schritt zurück: Selbst unter den aktuellen Regeln scheint der Aufenthaltsort von Schweizer Waffen teils ungeklärt. Recherchen des SRF haben ergeben, dass ein massiver Teil des Kriegsgeräts, welches die Schweiz nach Indien exportiert hat, bei einer Stichprobe nicht kontrolliert werden konnte. Dass diese Waffen in die falschen Hände gelangt sind, kann somit nicht ausgeschlossen werden.
+
+Es ist unfassbar, dass es überhaupt gesagt werden muss, aber: Schweizer Kriegsmaterial darf unter keinen Umständen in die Hände von Regimen gelangen, welche sich keinen Deut um Menschenrechte scheren; weder direkt, noch über Umwege.
