@@ -1,0 +1,19 @@
+---
+date : 2025-08-13
+title: Zivi im Einsatz
+lead: Nach 365 Tagen im Einsatz für unsere Gesellschaft – im zivilen Ersatzdienst statt der Armee – habe ich zum Zeitpunkt des Verfassens dieses Textes meine Dienstpflicht kürzlich abgeschlossen. Am Ende dieses Lebensabschnitts gilt es, ein Fazit zu ziehen.
+slug: zivi-im-einsatz
+tags: ["Sicherheitspolitik", "Armee und Zivildienst"]
+---
+
+*Verfasst für die Zeitschrift des Schweizerischen Zivildienstverbands CIVIVA*
+
+Als ich gefragt wurde, ob ich einen Bericht aus meinem letzten Einsatz verfassen könnte, war ich zuerst skeptisch. Ich war unsicher, ob meine ehrliche Meinung über eine Organisation, bei der ich in den vergangenen 5 Jahren diverse Mängel erkannt habe, der Sache dienlich wäre. Nachdem ich jedoch einen Schritt zurückgetreten bin, sah ich vor allem drei Dinge: Die fast 2 Millionen Diensttage, welche von über 25’000 Zivis jedes Jahr geleistet werden. Die Dankbarkeit all derjenigen, die ich mit meinen 365 Einsatztagen unterstützen konnte. Und das unersetzliche Engagement der jungen Menschen, die sich für den Wechsel in den Zivildienst entscheiden; in Spitälern, auf Alpweiden, in Gemeinschaftszentren, in Stiftungen oder in Schulen.
+
+Meine letzten 4 Einsätze durfte ich in einem öffentlichen Alterszentrum meiner Stadt leisten. In allen Betriebsbereichen wurden mein Mit-Zivi und ich eingesetzt und konnten das Personal genau dabei unterstützen, was ohne uns auf der Strecke geblieben wäre. Wir hatten das Glück, den Bewohner*innen Wünsche erfüllen zu können, für welche die Stammbelegschaft schlicht keine Ressourcen hatte. Ich habe nicht nur ein Mal einen Bewohner zu einem Spitalbesuch begleitet und versucht, ihm die Angst vor der Untersuchung zu nehmen (teils mit mehr, teils mit weniger Erfolg). Ich habe die funkelnden Augen einer betagten Bewohnerin gesehen, als ich ihren Einkaufszettel entgegennahm und ihre Besorgungen erledigte. Ich habe hautnah miterleben dürfen, wie griesgrämig wirkende ältere Herren bei einem Jass aufblühen und sich sogar eine regelmässige Jassrunde daraus entwickelte. Ich habe unbeschreiblich viel gelernt: Über den Zugang zu und die Betreuung von betagten Personen. Darüber, wie einschneidend eine Diagnose wie Demenz sein kann. Und über den Tod und den Umgang mit der eigenen Sterblichkeit.
+
+> Wir hatten das Glück, den Bewohner*innen Wünsche erfüllen zu können, für welche die Stammbelegschaft schlicht keine Ressourcen hatte.
+
+Rückblickend sind aus meiner Perspektive diese beiden Aspekte die Quintessenz des zivilen Ersatzdienstes: Einerseits haben wir Zivis die Chance, dem Gemeinwohl dienende Aufgaben zu übernehmen, für welche ohne uns die Mittel fehlen. Andererseits bekommen wir die Möglichkeit, uns selbst zu entwickeln; und zwar in Feldern, die uns in unserem sonstigen Alltag allzu oft gar nie begegnen.
+
+In diesem letzten Einsatz hörte ich eine Aussage allzu häufig: «Ah, du machst Zivildienst? Den wollen sie ja jetzt dann abschaffen!» Wahrhaftig erstaunt war ich, diesen Satz von Personen zu hören, welche ich in keinerlei Hinsicht politische interessiert eingeschätzt hätte. Von Bewohner*innen des Altersheims, von Personen aus der Pflege, der Administration, der Wäscherei. Sie wussten nicht, was die aktuellen Forderungen sind. Sie wussten auch nicht wirklich, wer sie sind, die den Zivildienst ja jetzt dann abschaffen wollen. Aber eines wussten sie alle: «Die sind doch weich!», meinte eine Bewohnerin, nachdem sie sich, ohne mein Zutun, über die bürgerlichen Pläne für den Zivildienst in Rage geredet hatte. **Der Tenor war klar. All diejenigen, welche Erfahrungen mit Zivildienstleistenden gemacht hatten, waren sich einig: Die Strategie, den Zivildienst zu schwächen, um vermeintliche Alimentierungsprobleme der Armee zu lösen, werde nicht aufgehen.**

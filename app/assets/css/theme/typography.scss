@@ -1,0 +1,26 @@
+html {
+    font-size: clamp(16px, 1.045vw, 27px);
+    @apply font-iawriter text-charcoal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 200;
+    font-family: "migra", serif;
+    line-height: 0.95 !important;
+}
+
+a {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.2em;
+    text-decoration-style: wavy;
+
+    &.toes-active-link {
+        text-decoration-color: theme("colors.primary");
+    }
+}
