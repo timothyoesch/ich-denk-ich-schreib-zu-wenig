@@ -8,18 +8,13 @@ on:
 jobs:
   deploy:
     if: >
-      contains(github.event.head_commit.message, 'DEPLOY') &&
-      github.event.head_commit.added == '[]' &&
-      github.event.head_commit.removed == '[]' &&
-      github.event.head_commit.modified == '[]'
+      contains(github.event.head_commit.message, 'DEPLOY')
     # check that the commit message contains 'DEPLOY' and that no files were added, removed, or modified
     runs-on: self-hosted
 
     steps:
       - name: Pull, Build, and Restart
         run: |
-          cd ~/htdocs/toes.ch
-          git pull
-          npm ci
-          npm run build
-          pm2 restart ecosystem.prod.config.cjs
+          echo ${GITHUB_EVENT_HEAD_ADDED}
+          echo ${GITHUB_EVENT_HEAD_REMOVED}
+          echo ${GITHUB_EVENT_HEAD_MODIFIED}
