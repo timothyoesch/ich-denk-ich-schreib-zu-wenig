@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "git commit --allow-empty -m 'DEPLOY' && git push"
+    "deploy": "git commit --allow-empty -m 'trigger deploy ($(date +'%Y-%m-%d %H:%M:%S'))' && git push"
   },
   "dependencies": {
     "@nuxt/content": "^3.7.1",
