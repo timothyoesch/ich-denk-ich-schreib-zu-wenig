@@ -12,7 +12,7 @@ Ich habe nicht vor, diese Texte zu streuen. Ich schreibe nicht, um Aufmerksamkei
 
 # Ein Ort für meine Gedanken
 
-**Ich denke viel** (das klingt, als würde ich damit angeben wollen, lol *«MeIn HiRn DeNkT mEhR aLs DeInEs»*). Ich glaube nicht, dass ich mehr denke, als andere. Genauso wenig sind sie *mega wichtig* oder *nie dagewesen.* Und doch wollte ich mit diesen Gedanken nicht alleine bleiben.
+**Ich denke viel**. Das klingt, als würde ich damit angeben wollen (lol *«MeIn HiRn DeNkT mEhR aLs DeInEs»*). Das ist selbstverständlich nicht das Ziel. Genauso wenig sind sie *mega wichtig* oder *nie dagewesen.* Und doch wollte ich mit diesen Gedanken nicht alleine bleiben.
 
 # Besser als Doomscrollen
 
