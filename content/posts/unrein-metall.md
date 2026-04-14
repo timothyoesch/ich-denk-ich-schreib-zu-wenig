@@ -1,9 +1,12 @@
 ---
-date : 2024-07-22
 title: "Unrein-Metall: Schmutzige Geschäfte und der feige Bundesrat"
+coverImage: /images/og.png
+date: 2024-07-22
+description: "Als der Westdeutsche Rundfunk im März seine Recherchen veröffentlichte, war niemand überrascht: Dokumente zeigen, dass der deutsche Rüstungskonzern «Rheinmetall» auch nach der Krim-Invasion 2014 noch massive Kriegsmaterial-Lieferungen an die russischen «Oboronservice AG» geplant hatte. Weil diese Deals gestoppt wurden, klagte die deutsche Firma damals auf Schadensersatz in der perversen Höhe von 130 Millionen Euro – die Klage scheiterte, doch Rheinmetall hielt daran fest, dass ein geplantes Übungszentrum noch 2014 gebaut werden soll. Nicht 24 Stunden nach der Annexion der Krim-Halbinsel durch Russland forderte das Unternehmen, dass das Übungszentrum für die russischen Truppen weiterhin gebaut wird. Noch im selben Jahr hätte das Zentrum mit einer Ausbildungskapazität von 30’000 Soldaten pro Jahr in Betrieb genommen werden sollen. Solche Absurditäten muss man zuerst mal sacken lassen."
 lead: "Es ist kaum überraschend, dass die Schweiz immer wieder in Rüstungsgeschäfte mit zwielichtigen Partner*innen involviert ist: Die rechtlichen Grundlagen für eine konsequente und geradlinige Politik sind schlicht zu löchrig. Und doch überrascht es, wenn der Bundesrat erklärt, was wir alle befürchten."
-slug: unrein-metall
-tags: ["Kriegsmaterialexporte", "Armee und Zivildienst"]
+tags:
+  - Kriegsmaterialexporte
+  - Armee und Zivildienst
 ---
 
 Als der Westdeutsche Rundfunk im März seine Recherchen veröffentlichte, war niemand überrascht: Dokumente zeigen, dass der deutsche Rüstungskonzern «Rheinmetall» auch nach der Krim-Invasion 2014 noch massive Kriegsmaterial-Lieferungen an die russischen «Oboronservice AG» geplant hatte. Weil diese Deals gestoppt wurden, klagte die deutsche Firma damals auf Schadensersatz in der perversen Höhe von 130 Millionen Euro – die Klage scheiterte, doch Rheinmetall hielt daran fest, dass ein geplantes Übungszentrum noch 2014 gebaut werden soll. Nicht 24 Stunden nach der Annexion der Krim-Halbinsel durch Russland forderte das Unternehmen, dass das Übungszentrum für die russischen Truppen weiterhin gebaut wird. Noch im selben Jahr hätte das Zentrum mit einer Ausbildungskapazität von 30’000 Soldaten pro Jahr in Betrieb genommen werden sollen. Solche Absurditäten muss man zuerst mal sacken lassen.
