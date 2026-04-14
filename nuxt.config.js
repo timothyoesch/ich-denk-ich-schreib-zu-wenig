@@ -6,7 +6,7 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
-  modules: ["@nuxt/content", "@nuxt/fonts", "nuxt-studio"],
+  modules: ["@nuxt/content", "@nuxt/fonts", "nuxt-studio", "nuxt-umami"],
 
   css: ["./assets/css/main.css"],
 
@@ -30,14 +30,6 @@ export default defineNuxtConfig({
     pageTransition: { name: "page", mode: "out-in" },
     head: {
       title: "Ich denk, ich schreib zu wenig",
-      script: [
-        {
-          src: "https://analytics.toes.ch/api/script.js",
-          async: true,
-          defer: true,
-          "data-site-id": "e33ac068f510",
-        },
-      ],
       link: [
         {
           rel: "icon",
@@ -87,4 +79,13 @@ export default defineNuxtConfig({
       global: true,
     },
   ],
+
+  umami: {
+    id: "2783162f-0c86-49ad-b5ee-d717d2c7c711",
+    host: "https://tr.toes.ch",
+    autoTrack: true,
+    ignoreLocalhost: true,
+    domains: ["toes.ch"],
+    logErrors: true,
+  },
 });

@@ -42,7 +42,7 @@ const {
           :key="post.slug"
           class="toes-posts__post md:aspect-square text-sm md:text-base"
         >
-          <NuxtLink :to="post.path">
+          <NuxtLink :to="post.path" class="no-underline!">
             <h3 class="text-4xl md:text-5xl mb-2">{{ post.title }}</h3>
           </NuxtLink>
           <p class="italic text-sm">
@@ -55,8 +55,15 @@ const {
               })
             }}
           </p>
-          <div class="flex gap-2 flex-wrap text-sm">
-            <span v-for="tag in post.tags" :key="tag">#{{ tag }}</span>
+          <div class="flex gap-2 flex-wrap text-sm mt-2">
+            <NuxtLink
+              v-for="tag in post.tags"
+              :key="tag"
+              :to="`/tags/${tag}`"
+              class="no-underline! text-primary"
+            >
+              #{{ tag }}
+            </NuxtLink>
           </div>
           <div class="mt-4">
             <p>

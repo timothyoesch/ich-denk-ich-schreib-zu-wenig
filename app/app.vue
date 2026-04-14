@@ -24,6 +24,7 @@
 <script setup>
 // Always open external links in a new tab (links that don't start with https://toes.ch or http://localhost)
 onMounted(() => {
+  umTrackView();
   window.addEventListener("click", (event) => {
     const target = event.target;
     if (

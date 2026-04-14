@@ -20,7 +20,30 @@ useSeoMeta({
 <template>
   <div class="px-4 md:px-14" v-if="post">
     <div class="toes-default-post-layout mt-4 md:mt-0 prose">
-      <h1 class="!text-6xl md:!text-8xl mb-4 md:mb-8">{{ post.title }}</h1>
+      <h1 class="!text-6xl md:!text-8xl mb-2! md:mb-3!">{{ post.title }}</h1>
+      <div class="toes__post__meta flex gap-x-2 text-sm text-gray-500">
+        <span class="italic">
+          {{
+            new Date(post.date).toLocaleDateString("de-DE", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+              weekday: "long",
+            })
+          }}
+        </span>
+        &middot;
+        <div class="toes__post__meta__tags flex flex-wrap gap-4">
+          <NuxtLink
+            v-for="(tag, index) in post.tags"
+            :key="index"
+            :to="`/tags/${tag}`"
+            class="toes__post__meta__tag no-underline! text-primary"
+          >
+            #{{ tag }}
+          </NuxtLink>
+        </div>
+      </div>
       <p class="mb-4 md:mb-8 text-lg md:text-2xl font-bold">{{ post.lead }}</p>
       <ContentRenderer :value="post" />
     </div>

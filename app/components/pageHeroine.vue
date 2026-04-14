@@ -44,7 +44,9 @@ const {
     class="toesch-page-Heroine p-4 pt-6 md:!p-14 md:text-2xl"
     ref="headerElement"
   >
-    <h1>Ich denk, ich schreib zu wenig.</h1>
+    <NuxtLink to="/" class="no-underline!">
+      <h1>Ich denk, ich schreib zu wenig.</h1>
+    </NuxtLink>
     <p class="toes-container">
       Vor <span ref="counterElement" class="text-primary"></span> Tagen begann
       ich wieder zu schreiben. Diese Textsammlung ist das Resultat.
