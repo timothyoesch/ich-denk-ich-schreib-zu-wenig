@@ -8,13 +8,14 @@ on:
 jobs:
   deploy:
     if: >
-      contains(github.event.head_commit.message, 'DEPLOY')
+      contains(github.event.head_commit.message, 'DEPLOY') &&
+      github.event.head_commit.added == null &&
+      github.event.head_commit.removed == null &&
+      github.event.head_commit.modified == null
     # check that the commit message contains 'DEPLOY' and that no files were added, removed, or modified
     runs-on: self-hosted
 
     steps:
       - name: Pull, Build, and Restart
         run: |
-          echo ${GITHUB_EVENT_HEAD_ADDED}
-          echo ${GITHUB_EVENT_HEAD_REMOVED}
-          echo ${GITHUB_EVENT_HEAD_MODIFIED}
+          echo "Pulling latest changes..."
