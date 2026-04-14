@@ -50,7 +50,7 @@ const {
       ich wieder zu schreiben. Diese Textsammlung ist das Resultat.
     </p>
     <div
-      class="flex flex-nowrap gap-4 mt-6 overflow-x-scroll relative pb-2 px-1"
+      class="flex flex-nowrap gap-8 mt-6 overflow-x-scroll relative pb-2 px-1"
     >
       <NuxtLink to="/" activeClass="toes-active-link" class="text-nowrap">
         Texte
@@ -70,7 +70,7 @@ const {
 
 <style lang="scss" scoped>
 h1 {
-  font-size: clamp(3rem, 7.5vw, 12rem);
+  font-size: clamp(3rem, 5.5vw, 12rem);
 }
 ::-webkit-scrollbar {
   height: 2px;

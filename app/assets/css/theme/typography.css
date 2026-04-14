@@ -1,0 +1,41 @@
+html {
+  font-size: clamp(16px, 1.045vw, 27px);
+  @apply font-iawriter text-charcoal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 200;
+  font-family: "migra", serif;
+  line-height: 0.95 !important;
+}
+
+a {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.2em;
+  text-decoration-style: wavy;
+  transition: text-decoration-color 0.3s ease;
+
+  &.toes-active-link,
+  &:hover {
+    text-decoration-color: theme("colors.primary");
+  }
+
+  &[href^="http://"]:after,
+  &[href^="https://"]:after {
+    content: "";
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPjxwYXRoIGQ9Ik0gMyAzIEwgMyAyMSBMIDIxIDIxIEwgMjEgMTIgTCAxOSAxMiBMIDE5IDE5IEwgNSAxOSBMIDUgNSBMIDEyIDUgTCAxMiAzIEwgMyAzIHogTSAxNCAzIEwgMTQgNSBMIDE3LjU4NTkzOCA1IEwgOC4yOTI5Njg4IDE0LjI5Mjk2OSBMIDkuNzA3MDMxMiAxNS43MDcwMzEgTCAxOSA2LjQxNDA2MjUgTCAxOSAxMCBMIDIxIDEwIEwgMjEgMyBMIDE0IDMgeiIvPjwvc3ZnPg==");
+    background-size: contain;
+    height: 0.75em;
+    width: 0.75em;
+    display: inline-block;
+    margin-left: 0.25em;
+    color: theme("colors.primary");
+    text-decoration: none;
+  }
+}

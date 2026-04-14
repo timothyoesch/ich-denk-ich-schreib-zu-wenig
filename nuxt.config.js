@@ -1,19 +1,21 @@
-import { defineContentConfig, defineCollection } from "@nuxt/content";
+import tailwindcss from "@tailwindcss/vite";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
+
   devtools: { enabled: true },
-  modules: [
-    "@nuxtjs/tailwindcss",
-    "@nuxt/content",
-    "@nuxt/fonts",
-    "nuxt-studio",
-  ],
-  css: ["~/assets/css/main.scss"],
+
+  modules: ["@nuxt/content", "@nuxt/fonts", "nuxt-studio"],
+
+  css: ["./assets/css/main.css"],
+
   tailwindcss: {
     exposeConfig: true,
   },
+
   vite: {
+    plugins: [tailwindcss()],
     esbuild: {
       drop: ["console", "debugger"],
     },
@@ -23,6 +25,7 @@ export default defineNuxtConfig({
       },
     },
   },
+
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {
@@ -63,6 +66,7 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   studio: {
     route: "/_studio",
 
@@ -73,4 +77,10 @@ export default defineNuxtConfig({
       branch: "main",
     },
   },
+  components: [
+    {
+      path: "~/components/content",
+      global: true,
+    },
+  ],
 });

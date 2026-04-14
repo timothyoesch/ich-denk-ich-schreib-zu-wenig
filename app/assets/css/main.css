@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@import "./theme/base.css";
+@import "./theme/typography.css";
+@import "./theme/fonts.css";
+@import "./theme/pages.css";
+
+@import "./elements/postlist.css";
+@import "./elements/footnotes.css";
+
+@theme {
+  --color-eggshell: #fefdfb;
+  --color-creme: #fff3d6;
+  --color-primary: #9900ff;
+  --color-charcoal: #404040;
+  --font-iawriter: IaWriter, sans-serif;
+  --font-migra: migra, serif;
+}

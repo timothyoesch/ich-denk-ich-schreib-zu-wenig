@@ -6,7 +6,7 @@ const { data: page } = await useAsyncData(route.path, () => {
 </script>
 <template>
   <div class="px-4 md:px-14" v-if="page">
-    <div class="toes-default-page-layout">
+    <div class="toes-default-page-layout prose">
       <ContentRenderer :value="page" />
     </div>
   </div>
