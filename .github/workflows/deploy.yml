@@ -15,4 +15,3 @@ jobs:
           cd ~/htdocs/toes.ch
           git pull
           npm run build
-          pm2 restart ecosystem.prod.config.cjs
