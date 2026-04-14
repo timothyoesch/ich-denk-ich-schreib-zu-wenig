@@ -79,6 +79,10 @@ export default defineNuxtConfig({
   },
   components: [
     {
+      path: "~/components",
+      global: true,
+    },
+    {
       path: "~/components/content",
       global: true,
     },
