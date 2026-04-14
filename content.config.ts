@@ -8,6 +8,9 @@ export default defineContentConfig({
         include: "pages/*.md",
         prefix: "/",
       },
+      schema: z.object({
+        sort: z.number().optional(),
+      }),
     }),
     posts: defineCollection({
       type: "page",

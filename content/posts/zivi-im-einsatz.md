@@ -8,7 +8,7 @@ tags:
   - Armee und Zivildienst
 ---
 
-_Verfasst für die Zeitschrift des Schweizerischen Zivildienstverbands CIVIVA_
+*Verfasst für die Zeitschrift des Schweizerischen Zivildienstverbands CIVIVA*
 
 Als ich gefragt wurde, ob ich einen Bericht aus meinem letzten Einsatz verfassen könnte, war ich zuerst skeptisch. Ich war unsicher, ob meine ehrliche Meinung über eine Organisation, bei der ich in den vergangenen 5 Jahren diverse Mängel erkannt habe, der Sache dienlich wäre. Nachdem ich jedoch einen Schritt zurückgetreten bin, sah ich vor allem drei Dinge: Die fast 2 Millionen Diensttage, welche von über 25’000 Zivis jedes Jahr geleistet werden. Die Dankbarkeit all derjenigen, die ich mit meinen 365 Einsatztagen unterstützen konnte. Und das unersetzliche Engagement der jungen Menschen, die sich für den Wechsel in den Zivildienst entscheiden; in Spitälern, auf Alpweiden, in Gemeinschaftszentren, in Stiftungen oder in Schulen.
 

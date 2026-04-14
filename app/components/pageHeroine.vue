@@ -27,6 +27,17 @@ onMounted(() => {
   setVariables();
   window.addEventListener("resize", setVariables);
 });
+
+/**
+ * Navbar links
+ */
+const {
+  data: pages,
+  status,
+  error,
+} = await useAsyncData("all-pages", () =>
+  queryCollection("pages").order("sort", "ASC").all(),
+);
 </script>
 <template>
   <div
@@ -38,12 +49,21 @@ onMounted(() => {
       Vor <span ref="counterElement" class="text-primary"></span> Tagen begann
       ich wieder zu schreiben. Diese Textsammlung ist das Resultat.
     </p>
-    <div class="flex gap-4 mt-6">
-      <NuxtLink to="/" activeClass="toes-active-link">Texte</NuxtLink>
-      <NuxtLink to="/ueber-mich" activeClass="toes-active-link"
-        >Über mich</NuxtLink
+    <div
+      class="flex flex-nowrap gap-4 mt-6 overflow-x-scroll relative pb-2 px-1"
+    >
+      <NuxtLink to="/" activeClass="toes-active-link" class="text-nowrap">
+        Texte
+      </NuxtLink>
+      <NuxtLink
+        :to="page.path"
+        activeClass="toes-active-link"
+        class="text-nowrap"
+        v-for="page in pages"
+        :key="page.slug"
       >
-      <NuxtLink to="/kontakt" activeClass="toes-active-link">Kontakt</NuxtLink>
+        {{ page.title }}
+      </NuxtLink>
     </div>
   </div>
 </template>
@@ -51,5 +71,16 @@ onMounted(() => {
 <style lang="scss" scoped>
 h1 {
   font-size: clamp(3rem, 7.5vw, 12rem);
+}
+::-webkit-scrollbar {
+  height: 2px;
+  opacity: 0.15;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: theme("colors.primary");
+  color: theme("colors.primary");
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 }
 </style>

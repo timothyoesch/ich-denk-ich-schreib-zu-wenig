@@ -4,12 +4,11 @@ const {
   status,
   error,
 } = await useAsyncData(
-  "all-posts-grouped", // A unique key to ensure data is fetched and cached correctly
+  "all-posts-grouped",
   () => queryCollection("posts").order("date", "DESC").all(),
   {
     transform: (posts) => {
       return posts.reduce((acc, post) => {
-        // Good practice: ensure post.date exists before parsing to avoid crashes
         if (!post.date) return acc;
 
         const year = `Y${new Date(post.date).getFullYear().toString()}`;
