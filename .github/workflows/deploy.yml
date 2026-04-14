@@ -7,6 +7,11 @@ on:
 
 jobs:
   deploy:
+    if: >
+      contains(github.event.head_commit.message, 'DEPLOY') &&
+      toJson(github.event.head_commit.added) == '[]' &&
+      toJson(github.event.head_commit.modified) == '[]' &&
+      toJson(github.event.head_commit.removed) == '[]'
     runs-on: self-hosted
 
     steps:
