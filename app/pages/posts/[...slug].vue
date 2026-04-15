@@ -4,19 +4,6 @@ const { data: post } = await useAsyncData(route.path, () =>
   queryCollection("posts").path(route.path).first(),
 );
 
-if (post.value?.unlisted) {
-  const hash = route.query.HASH;
-  if (process.env.NODE_ENV !== "development" && hash !== post.value.__hash__) {
-    throw createError({ statusCode: 404, statusMessage: "Not Found" });
-  }
-}
-
-const copyHash = () => {
-  navigator.clipboard.writeText(
-    "https://toes.ch/" + post.value.id + "?HASH=" + post.value.__hash__,
-  );
-};
-
 useSeoMeta({
   post,
   title: () => `${post.value.title} | Timothy Oesch`,
