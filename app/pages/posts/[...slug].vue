@@ -54,7 +54,9 @@ useSeoMeta({
       <h1 class="text-6xl! md:text-8xl! mb-2! md:mb-3! mt-0!">
         {{ post.title }}
       </h1>
-      <div class="toes__post__meta flex gap-x-4 text-sm text-gray-500">
+      <div
+        class="toes__post__meta flex flex-col lg:flex-row gap-x-4 gap-y-2 text-sm text-gray-500"
+      >
         <span class="italic text-nowrap">
           {{
             new Date(post.date).toLocaleDateString("de-DE", {
@@ -65,7 +67,7 @@ useSeoMeta({
             })
           }}
         </span>
-        &middot;
+        <span class="hidden lg:inline-block"> &middot; </span>
         <div class="toes__post__meta__tags flex flex-wrap gap-x-4 gap-y-0">
           <NuxtLink
             v-for="(tag, index) in post.tags"

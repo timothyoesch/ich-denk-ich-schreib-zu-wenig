@@ -24,7 +24,9 @@ const { data: posts } = await useAsyncData(route.path, () => {
               post.title
             }}</NuxtLink>
           </h2>
-          <div class="toes__post__meta flex gap-x-2 text-xs text-gray-500">
+          <div
+            class="toes__post__meta flex flex-col lg:flex-row gap-x-2 gap-y-1 text-xs text-gray-500"
+          >
             <span class="italic text-nowrap">
               {{
                 new Date(post.date).toLocaleDateString("de-DE", {
@@ -35,7 +37,7 @@ const { data: posts } = await useAsyncData(route.path, () => {
                 })
               }}
             </span>
-            &middot;
+            <span class="hidden lg:inline-block"> &middot; </span>
             <div class="toes__post__meta__tags flex flex-wrap gap-4">
               <NuxtLink
                 v-for="(tag, index) in post.tags"
