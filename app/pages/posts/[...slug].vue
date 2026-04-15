@@ -23,10 +23,10 @@ if (post.value?.unlisted) {
 
 useSeoMeta({
   post,
-  title: () => `${post.value?.title} | Timothy Oesch`,
-  description: () => post.value?.lead,
-  ogTitle: () => `${post.value?.title} | Timothy Oesch`,
-  ogDescription: () => post.value?.lead,
+  title: () => `${post.value?.title || "Nicht gefunden"} | Timothy Oesch`,
+  description: () => post.value?.lead || "Dieser Beitrag existiert nicht",
+  ogTitle: () => `${post.value?.title || "Nicht gefunden"} | Timothy Oesch`,
+  ogDescription: () => post.value?.lead || "Dieser Beitrag existiert nicht",
   ogImage: () => post.value?.coverImage || null,
   ogType: "article",
   twitterCard: () =>
@@ -83,8 +83,10 @@ useSeoMeta({
       <ContentRenderer :value="post" />
     </div>
   </div>
-  <div class="toes-error-post-layout px-14" v-else>
-    <h1 class="text-4xl! md:text-9xl!">404</h1>
-    <p class="mt-4">Der Beitrag wurde nicht gefunden.</p>
+  <div class="px-4 md:px-14 min-h-100" v-else>
+    <div class="toes-error-post-layout mt-4">
+      <h1 class="text-6xl! md:text-7xl!">404 :(</h1>
+      <p class="mt-4">Der Beitrag wurde nicht gefunden.</p>
+    </div>
   </div>
 </template>
