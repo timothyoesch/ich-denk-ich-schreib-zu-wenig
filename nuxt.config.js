@@ -33,13 +33,6 @@ export default defineNuxtConfig({
     pageTransition: { name: "page", mode: "out-in" },
     head: {
       title: "Ich denk, ich schreib zu wenig",
-      //   script: [
-      //     {
-      //       src: "https://commento.toes.ch/js/commento.js",
-      //       "data-auto-init": "false",
-      //       defer: true,
-      //     },
-      //   ],
       link: [
         {
           rel: "icon",
@@ -83,7 +76,7 @@ export default defineNuxtConfig({
   umami: {
     id: "2783162f-0c86-49ad-b5ee-d717d2c7c711",
     host: "https://tr.toes.ch",
-    autoTrack: true,
+    autoTrack: false,
     ignoreLocalhost: true,
     domains: ["toes.ch"],
     logErrors: true,

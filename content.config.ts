@@ -9,6 +9,7 @@ export default defineContentConfig({
         prefix: "/",
       },
       schema: z.object({
+        menu: z.boolean().default(false),
         sort: z.number().optional(),
       }),
     }),

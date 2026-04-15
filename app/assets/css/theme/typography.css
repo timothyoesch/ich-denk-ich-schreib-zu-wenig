@@ -1,5 +1,5 @@
 html {
-  font-size: clamp(16px, 1.045vw, 27px);
+  font-size: clamp(15px, 1.075vw, 27px);
   @apply font-iawriter text-charcoal;
 }
 
@@ -24,6 +24,7 @@ a {
   text-underline-offset: 0.2em;
   text-decoration-style: wavy;
   transition: text-decoration-color 0.3s ease;
+  font-weight: inherit !important;
 
   &.toes-active-link,
   &:hover {

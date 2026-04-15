@@ -1,6 +1,7 @@
 ---
 title: Warum ein Blog?
 description: "Als ich dieses Projekt gestartet habe, fragte ich mich: Braucht es wirklich noch einen weiteren Blog?"
+menu: true
 sort: 1
 ---
 

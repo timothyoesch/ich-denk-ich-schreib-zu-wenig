@@ -34,6 +34,7 @@
         </NuxtLink>
       </div>
     </div>
+    <CookieBanner />
   </NuxtLayout>
 </template>
 
@@ -52,13 +53,15 @@
 <script setup>
 // Always open external links in a new tab (links that don't start with https://toes.ch or http://localhost)
 onMounted(() => {
-  umTrackView();
   window.addEventListener("click", (event) => {
     const target = event.target;
     if (
       target.tagName === "A" &&
       !target.href.startsWith("https://toes.ch") &&
-      !target.href.startsWith("http://localhost")
+      !target.href.startsWith("http://localhost") &&
+      // check that href isn't empty and is set
+      target.href &&
+      target.href.trim() !== ""
     ) {
       event.preventDefault();
       window.open(target.href, "_blank");

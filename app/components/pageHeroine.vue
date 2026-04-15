@@ -36,7 +36,7 @@ const {
   status,
   error,
 } = await useAsyncData("all-pages", () =>
-  queryCollection("pages").order("sort", "ASC").all(),
+  queryCollection("pages").order("sort", "ASC").where("menu", "==", true).all(),
 );
 </script>
 <template>
@@ -45,7 +45,7 @@ const {
     ref="headerElement"
   >
     <NuxtLink to="/" class="no-underline!">
-      <h1>Ich denk, ich schreib zu wenig.</h1>
+      <h1 class="mb-2">Ich denk, ich schreib zu wenig.</h1>
     </NuxtLink>
     <p class="toes-container">
       Vor <span ref="counterElement" class="text-primary"></span> Tagen begann
