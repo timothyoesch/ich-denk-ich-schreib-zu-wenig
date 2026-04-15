@@ -41,7 +41,7 @@ const {
 </script>
 <template>
   <div
-    class="toesch-page-Heroine p-4 pt-6 md:!p-14 md:text-2xl"
+    class="toesch-page-Heroine p-4 pt-6 md:p-14! md:text-2xl"
     ref="headerElement"
   >
     <NuxtLink to="/" class="no-underline!">
