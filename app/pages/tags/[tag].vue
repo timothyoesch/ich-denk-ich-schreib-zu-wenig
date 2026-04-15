@@ -24,7 +24,7 @@ const { data: posts } = await useAsyncData(route.path, () => {
             }}</NuxtLink>
           </h2>
           <div class="toes__post__meta flex gap-x-2 text-xs text-gray-500">
-            <span class="italic">
+            <span class="italic text-nowrap">
               {{
                 new Date(post.date).toLocaleDateString("de-DE", {
                   year: "numeric",

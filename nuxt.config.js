@@ -6,7 +6,7 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
-  modules: ["@nuxt/content", "@nuxt/fonts", "nuxt-studio", "nuxt-umami"],
+  modules: ["@nuxt/content", "@nuxt/fonts", "nuxt-umami"],
 
   css: ["./assets/css/main.css"],
 
@@ -18,6 +18,9 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
     esbuild: {
       drop: ["console", "debugger"],
+    },
+    optimizeDeps: {
+      include: ["@vue/devtools-core", "@vue/devtools-kit"],
     },
     server: {
       watch: {
@@ -59,16 +62,6 @@ export default defineNuxtConfig({
     },
   },
 
-  studio: {
-    route: "/_studio",
-
-    repository: {
-      provider: "github",
-      owner: "timothyoesch",
-      repo: "ich-denk-ich-schreib-zu-wenig",
-      branch: "main",
-    },
-  },
   components: [
     {
       path: "~/components",

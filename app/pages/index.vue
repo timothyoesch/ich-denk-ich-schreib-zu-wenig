@@ -5,9 +5,15 @@ const {
   error,
 } = await useAsyncData(
   "all-posts-grouped",
-  () => queryCollection("posts").order("date", "DESC").all(),
+  () =>
+    queryCollection("posts")
+      .order("date", "DESC")
+      // post.id does not contain TEMPLATE.md
+      .where("id", "NOT LIKE", "%TEMPLATE.md")
+      .all(),
   {
     transform: (posts) => {
+      console.log(posts);
       return posts.reduce((acc, post) => {
         if (!post.date) return acc;
 

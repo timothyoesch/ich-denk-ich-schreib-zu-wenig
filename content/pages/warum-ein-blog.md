@@ -12,7 +12,7 @@ Ich habe nicht vor, diese Texte zu streuen. Ich schreibe nicht, um Aufmerksamkei
 
 # Ein Ort für meine Gedanken
 
-**Ich denke viel**. Das klingt, als würde ich damit angeben wollen (lol *«MeIn HiRn DeNkT mEhR aLs DeInEs»*). Das ist selbstverständlich nicht das Ziel. Genauso wenig sind sie *mega wichtig* oder *nie dagewesen.* Und doch wollte ich mit diesen Gedanken nicht alleine bleiben.
+**Ich denke viel**. Das klingt, als würde ich damit angeben wollen (lol _«MeIn HiRn DeNkT mEhR aLs DeInEs»_). Das ist selbstverständlich nicht das Ziel. Genauso wenig sind meine Gedanken _mega wichtig_, die meisten davon weder _brandneu_ oder _nie dagewesen._ Und doch wollte ich mit diesen Gedanken nicht alleine bleiben.
 
 # Besser als Doomscrollen
 
@@ -20,7 +20,7 @@ In der Zeit, bevor ich diesen Blog began, verbrachte ich **ausgesprochen viel Ze
 
 # Ein alternativer Zeitvertrieb
 
-In der Vergangenheit stürzte ich mich in ungute Verhaltensmuster, wenn plötzlich Zeitressourcen frei wurden – als beispielsweise mein musikalisches Engagement abnahm, engagierte ich mich mehr und mehr in politischen Strukturen, bis ich zum Schluss kommen musste, dass ich *«activist burnout»* spürte. Ich will verhindern, dass dies wieder passiert. Ich fülle also meine Zeit – **statt mit problematischem, mit sinnstiftendem.**
+In der Vergangenheit stürzte ich mich in ungute Verhaltensmuster, wenn plötzlich Zeitressourcen frei wurden – als beispielsweise mein musikalisches Engagement abnahm, engagierte ich mich mehr und mehr in politischen Strukturen, bis ich zum Schluss kommen musste, dass ich _«activist burnout»_ spürte. Ich will verhindern, dass dies wieder passiert. Ich fülle also meine Zeit – **statt mit problematischem, mit sinnstiftendem.**
 
 # Ich will's mal ausprobieren
 

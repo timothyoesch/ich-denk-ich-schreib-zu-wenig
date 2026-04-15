@@ -1,5 +1,3 @@
-const dotenv = require("dotenv");
-const envConfig = dotenv.config({ path: ".env.production" }).parsed || {};
 module.exports = {
   apps: [
     {
@@ -10,7 +8,6 @@ module.exports = {
       script: "./.output/server/index.mjs",
       env: {
         NODE_ENV: "production",
-        ...envConfig,
       },
     },
   ],

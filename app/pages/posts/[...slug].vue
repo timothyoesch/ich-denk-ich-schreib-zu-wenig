@@ -4,6 +4,19 @@ const { data: post } = await useAsyncData(route.path, () =>
   queryCollection("posts").path(route.path).first(),
 );
 
+if (post.value?.unlisted) {
+  const hash = route.query.HASH;
+  if (process.env.NODE_ENV !== "development" && hash !== post.value.__hash__) {
+    throw createError({ statusCode: 404, statusMessage: "Not Found" });
+  }
+}
+
+const copyHash = () => {
+  navigator.clipboard.writeText(
+    "https://toes.ch/" + post.value.id + "?HASH=" + post.value.__hash__,
+  );
+};
+
 useSeoMeta({
   post,
   title: () => `${post.value.title} | Timothy Oesch`,
@@ -19,10 +32,20 @@ useSeoMeta({
 
 <template>
   <div class="px-4 md:px-14" v-if="post">
+    <div v-if="post.unlisted" class="mb-4">
+      <button
+        @click="copyHash"
+        class="bg-primary text-white text-xs py-2 px-4 cursor-pointer"
+      >
+        Hash kopieren
+      </button>
+    </div>
     <div class="toes-default-post-layout mt-4 md:mt-0 prose">
-      <h1 class="!text-6xl md:!text-8xl mb-2! md:mb-3!">{{ post.title }}</h1>
-      <div class="toes__post__meta flex gap-x-2 text-sm text-gray-500">
-        <span class="italic">
+      <h1 class="!text-6xl md:!text-8xl mb-2! md:mb-3! mt-0!">
+        {{ post.title }}
+      </h1>
+      <div class="toes__post__meta flex gap-x-4 text-sm text-gray-500">
+        <span class="italic text-nowrap">
           {{
             new Date(post.date).toLocaleDateString("de-DE", {
               year: "numeric",
@@ -33,7 +56,7 @@ useSeoMeta({
           }}
         </span>
         &middot;
-        <div class="toes__post__meta__tags flex flex-wrap gap-4">
+        <div class="toes__post__meta__tags flex flex-wrap gap-x-4 gap-y-0">
           <NuxtLink
             v-for="(tag, index) in post.tags"
             :key="index"

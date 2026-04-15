@@ -17,3 +17,7 @@ Mit zwei Frontalangriffen versuchen die Sicherheitspolitischen Kommissionen des 
 Treten wir einen Schritt zurück: Selbst unter den aktuellen Regeln scheint der Aufenthaltsort von Schweizer Waffen teils ungeklärt. Recherchen des SRF haben ergeben, dass ein massiver Teil des Kriegsgeräts, welches die Schweiz nach Indien exportiert hat, bei einer Stichprobe nicht kontrolliert werden konnte. Dass diese Waffen in die falschen Hände gelangt sind, kann somit nicht ausgeschlossen werden.
 
 Es ist unfassbar, dass es überhaupt gesagt werden muss, aber: Schweizer Kriegsmaterial darf unter keinen Umständen in die Hände von Regimen gelangen, welche sich keinen Deut um Menschenrechte scheren; weder direkt, noch über Umwege.
+
+::foot-notes
+\[1] This is a footnote
+::

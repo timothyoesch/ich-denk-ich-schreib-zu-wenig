@@ -14,13 +14,17 @@ export default defineContentConfig({
     }),
     posts: defineCollection({
       type: "page",
-      source: "posts/**/*.md",
+      source: {
+        include: "posts/**/*.md",
+        prefix: "/posts/",
+      },
       schema: z.object({
         title: z.string(),
         date: z.date(),
         lead: z.string().editor({ input: "textarea" }),
         coverImage: z.string().editor({ input: "media" }),
         tags: z.array(z.string()),
+        unlisted: z.boolean().default(false),
       }),
     }),
   },
