@@ -9,9 +9,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 200;
-  font-family: "migra", serif;
-  line-height: 0.95 !important;
+  font-weight: 700;
+  font-family: "Caudex", serif;
+  line-height: 1 !important;
+}
+
+blockquote p::before {
+  content: "" !important;
 }
 
 a {
@@ -26,8 +30,8 @@ a {
     text-decoration-color: theme("colors.primary");
   }
 
-  &[href^="http://"]:after,
-  &[href^="https://"]:after {
+  &:not(.noicon)[href^="http://"]:after,
+  &:not(.noicon)[href^="https://"]:after {
     content: "";
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPjxwYXRoIGQ9Ik0gMyAzIEwgMyAyMSBMIDIxIDIxIEwgMjEgMTIgTCAxOSAxMiBMIDE5IDE5IEwgNSAxOSBMIDUgNSBMIDEyIDUgTCAxMiAzIEwgMyAzIHogTSAxNCAzIEwgMTQgNSBMIDE3LjU4NTkzOCA1IEwgOC4yOTI5Njg4IDE0LjI5Mjk2OSBMIDkuNzA3MDMxMiAxNS43MDcwMzEgTCAxOSA2LjQxNDA2MjUgTCAxOSAxMCBMIDIxIDEwIEwgMjEgMyBMIDE0IDMgeiIvPjwvc3ZnPg==");
     background-size: contain;

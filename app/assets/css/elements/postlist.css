@@ -1,5 +1,5 @@
 .toes-posts--grid {
-  height: calc(100 * var(--vh, 1vh) - var(--header-height, 60px));
+  min-height: calc(100 * var(--vh, 1vh) - var(--header-height, 60px));
   overflow-y: hidden;
   overflow-x: auto;
   -ms-overflow-style: none;
@@ -10,27 +10,27 @@
   }
 }
 
-.toes-posts {
-  .toes-posts__year {
-    &:nth-child(n + 2) {
-      margin-left: -1px;
-    }
+.toes-posts__year {
+  &:nth-child(n + 2) {
+    margin-top: -1px;
   }
 }
 
 .toes-posts__year--marker {
   height: 100%;
   border: 1px solid theme("colors.charcoal");
-  @apply bg-creme p-6;
+  @apply bg-creme p-3 md:p-6;
 
   h2 {
-    @apply font-migra font-extrabold -rotate-90 text-3xl md:text-5xl;
+    @apply font-caudex font-extrabold -rotate-90 text-3xl md:text-5xl;
   }
 }
 
 .toes-posts__post {
-  height: 100%;
+  flex-grow: 1;
   border: 1px solid theme("colors.charcoal");
   margin-left: -1px;
-  padding: 1rem;
+  &:nth-child(n + 2) {
+    margin-top: -1px;
+  }
 }

@@ -6,6 +6,34 @@
     <div id="main-content">
       <NuxtPage />
     </div>
+    <div
+      class="toes__footer p-4 pb-2 text-xs flex justify-between items-center max-w-186"
+    >
+      <p class="toes__footer__copywrong">© Fuck Copyright</p>
+      <div class="toes__footer__icons flex gap-x-4">
+        <NuxtLink
+          to="https://bsky.app/profile/toes.ch"
+          target="_blank"
+          class="noicon"
+        >
+          <Icon name="uil:cloud" class="w-6! h-6!" />
+        </NuxtLink>
+        <NuxtLink
+          to="https://www.instagram.com/socialist_with_a_bowtie/"
+          target="_blank"
+          class="noicon"
+        >
+          <Icon name="uil:instagram" class="w-6! h-6!" />
+        </NuxtLink>
+        <NuxtLink
+          to="https://github.com/timothyoesch"
+          target="_blank"
+          class="noicon"
+        >
+          <Icon name="uil:github-alt" class="w-6! h-6!" />
+        </NuxtLink>
+      </div>
+    </div>
   </NuxtLayout>
 </template>
 

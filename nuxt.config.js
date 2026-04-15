@@ -6,7 +6,7 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true },
 
-  modules: ["@nuxt/content", "@nuxt/fonts", "nuxt-umami"],
+  modules: ["@nuxt/content", "@nuxt/fonts", "nuxt-umami", "@nuxt/icon"],
 
   css: ["./assets/css/main.css"],
 
@@ -80,5 +80,13 @@ export default defineNuxtConfig({
     ignoreLocalhost: true,
     domains: ["toes.ch"],
     logErrors: true,
+  },
+
+  fonts: {
+    google: {
+      families: {
+        Caudex: [400, 700],
+      },
+    },
   },
 });
