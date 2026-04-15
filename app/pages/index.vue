@@ -31,18 +31,18 @@ const {
 <template>
   <div v-if="status === 'pending'">Lade Beiträge...</div>
   <div v-else-if="error">Fehler beim Laden der Beiträge.</div>
-  <div class="toes-posts--grid flex flex-wrap w-fit" v-else>
+  <div class="toes-posts--grid flex flex-wrap max-w-182" v-else>
     <div
-      class="toes-posts__year min-h-full w-fit flex"
+      class="toes-posts__year min-h-full flex"
       v-for="(posts, year) in groupedPosts"
       :key="year"
     >
       <div
-        class="toes-posts__year--marker flex items-center justify-center w-fit"
+        class="toes-posts__year--marker flex items-center justify-center w-0"
       >
         <h2 class="text-2xl font-bold">{{ year.slice(1) }}</h2>
       </div>
-      <div class="toes-posts__year__grid flex flex-col flex-wrap">
+      <div class="toes-posts__year__grid flex flex-col flex-wrap w-full">
         <div
           v-for="post in posts"
           :key="post.slug"

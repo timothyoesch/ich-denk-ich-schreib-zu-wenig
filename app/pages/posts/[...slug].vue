@@ -21,6 +21,36 @@ if (post.value?.unlisted) {
   }
 }
 
+onMounted(() => {
+  // 1. Nuke the old Commento state from the window object
+  if (window.commento) {
+    delete window.commento;
+  }
+
+  // 2. Remove the old script tag if it exists from a previous route
+  const existingScript = document.getElementById("commento-script");
+  if (existingScript) {
+    existingScript.remove();
+  }
+
+  // 3. Create and inject a fresh script tag
+  const script = document.createElement("script");
+  script.id = "commento-script";
+  script.src = "https://commento.toes.ch/js/commento.js";
+
+  // We leave auto-init as true (the default) so Commento
+  // automatically boots up as soon as the script finishes downloading
+  document.body.appendChild(script);
+});
+
+// Optional: Clean up the DOM when navigating away
+onBeforeUnmount(() => {
+  const container = document.getElementById("commento");
+  if (container) {
+    container.innerHTML = "";
+  }
+});
+
 useSeoMeta({
   post,
   title: () => `${post.value?.title || "Nicht gefunden"} | Timothy Oesch`,
@@ -81,6 +111,11 @@ useSeoMeta({
       </div>
       <p class="mb-4 md:mb-8 text-lg md:text-2xl font-bold">{{ post.lead }}</p>
       <ContentRenderer :value="post" />
+      <div class="toes__post__comments mt-12 lg:mt-20">
+        <div class="w-12 h-1 bg-primary mb-4"></div>
+        <h2 class="text-3xl! mb-4! mt-0!">Kommentare</h2>
+        <div id="commento"></div>
+      </div>
     </div>
   </div>
   <div class="px-4 md:px-14 min-h-100" v-else>

@@ -33,6 +33,13 @@ export default defineNuxtConfig({
     pageTransition: { name: "page", mode: "out-in" },
     head: {
       title: "Ich denk, ich schreib zu wenig",
+      //   script: [
+      //     {
+      //       src: "https://commento.toes.ch/js/commento.js",
+      //       "data-auto-init": "false",
+      //       defer: true,
+      //     },
+      //   ],
       link: [
         {
           rel: "icon",

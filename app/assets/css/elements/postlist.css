@@ -19,7 +19,7 @@
 .toes-posts__year--marker {
   height: 100%;
   border: 1px solid theme("colors.charcoal");
-  @apply bg-creme p-3 md:p-6;
+  @apply bg-creme p-6 md:p-12;
 
   h2 {
     @apply font-caudex font-extrabold -rotate-90 text-3xl md:text-5xl;
