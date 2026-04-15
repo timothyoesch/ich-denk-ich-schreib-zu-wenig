@@ -28,7 +28,7 @@ useSeoMeta({
       </button>
     </div>
     <div class="toes-default-post-layout mt-4 md:mt-0 prose">
-      <h1 class="!text-6xl md:!text-8xl mb-2! md:mb-3! mt-0!">
+      <h1 class="text-6xl! md:text-8xl! mb-2! md:mb-3! mt-0!">
         {{ post.title }}
       </h1>
       <div class="toes__post__meta flex gap-x-4 text-sm text-gray-500">
@@ -59,7 +59,7 @@ useSeoMeta({
     </div>
   </div>
   <div class="toes-error-post-layout px-14" v-else>
-    <h1 class="!text-4xl md:!text-9xl">404</h1>
+    <h1 class="text-4xl! md:text-9xl!">404</h1>
     <p class="mt-4">Der Beitrag wurde nicht gefunden.</p>
   </div>
 </template>
