@@ -66,7 +66,7 @@ const { data: posts } = await useAsyncData(route.path, () => {
     </div>
   </div>
   <div class="toes-error-post-layout px-14" v-else>
-    <h1 class="!text-4xl md:!text-9xl">404</h1>
+    <h1 class="text-4xl! md:text-9xl!">404</h1>
     <p class="mt-4">Der Tag {{ route.params.tag }} wurde nicht gefunden.</p>
   </div>
 </template>

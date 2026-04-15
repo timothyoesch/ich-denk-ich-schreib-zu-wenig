@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 const counterElement = ref(null);
-const startDateTime = new Date("2026-04-11T22:12:00+02:00");
+const startDateTime = new Date("2025-11-25T22:12:00+02:00");
 const currentDateTime = new Date();
 const diffTime = Math.abs(currentDateTime - startDateTime);
 const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
