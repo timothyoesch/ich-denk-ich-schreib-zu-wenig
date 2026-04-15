@@ -3,6 +3,7 @@ const route = useRoute();
 const { data: posts } = await useAsyncData(route.path, () => {
   return queryCollection("posts")
     .where("tags", "LIKE", `%${route.params.tag}%`)
+    .where("unlisted", "==", false)
     .order("date", "DESC")
     .all();
 });

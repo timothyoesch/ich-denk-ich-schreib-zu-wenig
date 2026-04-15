@@ -19,15 +19,21 @@ useSeoMeta({
 
 <template>
   <div class="px-4 md:px-14" v-if="post">
-    <div v-if="post.unlisted" class="mb-4">
-      <button
-        @click="copyHash"
-        class="bg-primary text-white text-xs py-2 px-4 cursor-pointer"
-      >
-        Hash kopieren
-      </button>
-    </div>
     <div class="toes-default-post-layout mt-4 md:mt-0 prose">
+      <div v-if="post.unlisted" class="mb-12">
+        <div
+          class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4"
+          role="alert"
+        >
+          <p class="font-bold mb-2!">
+            Dieser Beitrag ist (noch) nicht öffentlich!
+          </p>
+          <p class="my-0! text-sm">
+            Nur Personen mit dem direkten Link können ihn sehen.<br />
+            <em>Bitte nicht teilen, thanks ❤️</em>
+          </p>
+        </div>
+      </div>
       <h1 class="text-6xl! md:text-8xl! mb-2! md:mb-3! mt-0!">
         {{ post.title }}
       </h1>

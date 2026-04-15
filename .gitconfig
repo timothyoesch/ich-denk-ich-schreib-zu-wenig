@@ -1,3 +1,7 @@
 [alias]
     sync = "!git pull origin main && git add -A && git commit -m \"update $(date '+%d/%m/%Y %H:%M:%S')\" && git push"
-    deploy = "!git commit --allow-empty -m \"trigger deploy $(date '+%d/%m/%Y %H:%M:%S')\" && git push"
+    deploy = !./hash.sh \
+        && git pull origin main \
+        && git add -A \
+        && "git commit -m \"trigger deploy $(date '+%d/%m/%Y %H:%M:%S')\"" \
+        && git push
