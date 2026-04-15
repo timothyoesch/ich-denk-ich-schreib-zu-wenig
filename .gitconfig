@@ -6,3 +6,4 @@
         && "git commit -m \"trigger deploy $(date '+%d/%m/%Y %H:%M:%S')\"" --quiet \
         && git push origin main --quiet
     unlisted = "!./unlisted-urls.sh"
+    push-upstream = "!./push-to-upstream.sh"
