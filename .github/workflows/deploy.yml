@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Pull, Build, and Restart
         run: |
-          cd ~/htdocs/toes.ch
+          cd /data/sites/timothyoesch/blog
           git pull
           npm ci
           npm run build
