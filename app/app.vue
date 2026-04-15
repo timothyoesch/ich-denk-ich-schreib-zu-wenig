@@ -9,7 +9,16 @@
     <div
       class="toes__footer p-4 pb-2 text-xs flex justify-between items-center max-w-186"
     >
-      <p class="toes__footer__copywrong">© Fuck Copyright</p>
+      <div class="toes__footer__links flex gap-x-4">
+        <NuxtLink
+          to="https://github.com/timothyoesch/ich-denk-ich-schreib-zu-wenig"
+          class="toes__footer__copywrong no-underline!"
+          >Fuck Copyright</NuxtLink
+        >
+        <NuxtLink to="/datenschutz" class="no-underline!">
+          Datenschutz
+        </NuxtLink>
+      </div>
       <div class="toes__footer__icons flex gap-x-4">
         <NuxtLink
           to="https://bsky.app/profile/toes.ch"
