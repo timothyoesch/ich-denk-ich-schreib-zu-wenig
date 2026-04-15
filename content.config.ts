@@ -25,6 +25,7 @@ export default defineContentConfig({
         coverImage: z.string().editor({ input: "media" }),
         tags: z.array(z.string()),
         unlisted: z.boolean().default(false),
+        hash: z.string().optional(),
       }),
     }),
   },

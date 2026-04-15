@@ -1,19 +1,36 @@
 <script setup>
 const route = useRoute();
-const { data: post } = await useAsyncData(route.path, () =>
-  queryCollection("posts").path(route.path).first(),
+const { data: post } = await useAsyncData(
+  route.path,
+  () => queryCollection("posts").path(route.path).first(),
+  {
+    // Do 404 checking manually, because unlisted posts should also be accessible, but not show up in the list of posts
+    transform: function (data) {
+      if (!data) {
+        throw createError({ statusCode: 404, statusMessage: "Not Found" });
+      }
+      return data;
+    },
+  },
 );
+
+if (post.value?.unlisted) {
+  const hash = route.query.HASH;
+  if (!hash || hash !== post.value?.hash) {
+    post.value = null;
+  }
+}
 
 useSeoMeta({
   post,
-  title: () => `${post.value.title} | Timothy Oesch`,
-  description: () => post.value.lead,
-  ogTitle: () => `${post.value.title} | Timothy Oesch`,
-  ogDescription: () => post.value.lead,
-  ogImage: () => post.value.coverImage || null,
+  title: () => `${post.value?.title} | Timothy Oesch`,
+  description: () => post.value?.lead,
+  ogTitle: () => `${post.value?.title} | Timothy Oesch`,
+  ogDescription: () => post.value?.lead,
+  ogImage: () => post.value?.coverImage || null,
   ogType: "article",
   twitterCard: () =>
-    post.value.coverImage ? "summary_large_image" : "summary",
+    post.value?.coverImage ? "summary_large_image" : "summary",
 });
 </script>
 

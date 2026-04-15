@@ -12,7 +12,7 @@ tags:
   - Kapitalismus
 coverImage: URL
 unlisted: true
-hash: 92743b9f93e61cadf740895e9f3c35a1775fe29d5e4e212f80b3164376cc584b
+hash: 74e87cf070821ef35555e0d6f0131e876146761994eb77dfde59565413bda085
 ---
 
 Bevor Marktblasen platzen, kann es wirken, als würden wir alle von den Markterfolgen profitieren. [Ein Kommentar im «explainitlikeimfive»-Subreddit](https://www.reddit.com/r/explainlikeimfive/comments/1by6lpg/comment/kyh9tnt) vergleicht es mit dem Speil _«Reise nach Jerusalem»_: Solange die Musik spielt, profitieren wir alle. In Zeiten des Booms ist es leicht, sich zu fühlen, als hätte man das System begriffen. Bis die Musik stoppt. Genug Stühle hatte es nämlich nie.

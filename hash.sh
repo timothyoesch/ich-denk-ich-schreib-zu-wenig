@@ -8,6 +8,7 @@ find content/posts -type f -name "*.md" | while read -r file; do
             gsed -i -e "/unlisted: true/a hash: $hash" "$file"
         fi
         echo ""
-        echo "Unlisted: https://toes.ch/posts/$(basename "$file" .md)?HASH=$hash"
+        # echo "Unlisted: https://toes.ch/<filename without 'content/'>?HASH=$hash"
+        echo "Unlisted: https://toes.ch/${file#content/}?HASH=$hash"
     fi
 done
