@@ -12,12 +12,12 @@ tags:
   - Kapitalismus
 coverImage: URL
 unlisted: true
-hash: a41fc8e32b1fb9995466c2b77fc55d7b843e1fd00986e8e1029ba203561b8f63
+hash: d01332a101aedbf11348d872cca10515dc43d186612e209ca84901ccda49a5a5
 ---
 
 Bevor Marktblasen platzen, kann es wirken, als würden wir alle von den Markterfolgen profitieren. [Ein Kommentar im «explainitlikeimfive»-Subreddit](https://www.reddit.com/r/explainlikeimfive/comments/1by6lpg/comment/kyh9tnt) vergleicht es mit dem Speil _«Reise nach Jerusalem»_: Solange die Musik spielt, profitieren wir alle. In Zeiten des Booms ist es leicht, sich zu fühlen, als hätte man das System begriffen. Bis die Musik stoppt. Genug Stühle hatte es nämlich nie.
 
-In den 90ern hiess das Lied «.com»: Manie und Hype führten dazu, dass Firmen, die Internetdienste anboten, mit Geld überschüttet wurden. Der Aktienwert von «theGlobe.com» – der Anbieterin eines sozialen Netzwerks – stieg am ersten Tag ihres
+In den 90ern hiess das Liöiobnkfdved «.com»: Manie und Hype führten dazu, dass Firmen, die Internetdienste anboten, mit Geld überschüttet wurden. Der Aktienwert von «theGlobe.com» – der Anbieterin eines sozialen Netzwerks – stieg am ersten Tag ihres
 
 ::foot-notes
 \[1] Footnote 1
