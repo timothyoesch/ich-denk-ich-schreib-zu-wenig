@@ -10,6 +10,7 @@ const {
       .order("date", "DESC")
       // post.id does not contain TEMPLATE.md
       .where("id", "NOT LIKE", "%TEMPLATE.md")
+      .andWhere("unlisted", "==", false)
       .all(),
   {
     transform: (posts) => {
